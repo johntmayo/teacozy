@@ -1,0 +1,94 @@
+* {
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  border-bottom: 1px solid 	seashell;
+  background-color: black;
+  z-index: 100;
+}
+
+.header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+.header nav li {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  text-decoration: underline;
+  display: inline-block;
+  padding-right: 20px;
+}
+
+a {
+  color: seashell;
+}
+
+#granola {
+  width: 1200px;
+}
+
+.jumbotron {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+
+.jumbotron img {
+
+}
+
+.main-title {
+  display: flex;
+  background-color: springgreen;
+  width: 1200px;
+  align-items: center;
+  z-index: 10;
+}
+
+.mission-container {
+  display: flex;
+  position: relative;
+  top: 70px;
+  opacity: .9;
+}
+
+.month-container {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid white;
+  width: 1000px;
+}
+
+.month-container img {
+  width: 300px;
+  height: 200px;
+}
+
+.locations-container {
+  display: flex;
+  border: 1px solid white;
+  height: 500px;
+  background-image: url("./images/img-locations-background.jpg");
+  flex-wrap: wrap;
+
+}
+
+
+
+footer {
+
+}
