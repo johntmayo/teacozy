@@ -3,7 +3,7 @@
   color: seashell;
   font-family: Helvetica, sans-serif;
   font-size: 22px;
-
+  text-align: center;
 }
 
 .header {
@@ -14,13 +14,19 @@
   width: 100%;
   position: fixed;
   border-bottom: 1px solid 	seashell;
-  background-color: black;
   z-index: 100;
+  top: 0px;
+  left: 0px;
+  right: 0px;
 }
 
 .header img {
   height: 50px;
   padding-left: 10px;
+}
+
+.header nav {
+  height: 69px;
 }
 
 .header nav li {
@@ -31,7 +37,16 @@
   padding-right: 20px;
 }
 
-a {
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  opacity: .9;
+  justify-content: center;
+  position: relative;
+  top: 70px;
+}
+
+nav a {
   color: seashell;
 }
 
@@ -39,31 +54,16 @@ a {
   width: 1200px;
 }
 
-.jumbotron {
+.mission-container {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  z-index: 0;
-}
-
-.jumbotron img {
-
+  height: 700px;
+  width: 1200px;
+  background-image: url(./images/img-mission-background.jpg);
 }
 
 .main-title {
-  display: flex;
-  background-color: springgreen;
   width: 1200px;
-  align-items: center;
-  z-index: 10;
-}
-
-.mission-container {
-  display: flex;
-  position: relative;
-  top: 70px;
-  opacity: .9;
 }
 
 .month-container {
@@ -71,11 +71,18 @@ a {
   flex-wrap: wrap;
   border: 1px solid white;
   width: 1000px;
+  margin-top: 30px;
+  justify-content: center;
 }
 
 .month-container img {
   width: 300px;
   height: 200px;
+  padding: 10px;
+}
+
+.month-title {
+  width: 100%;
 }
 
 .locations-container {
@@ -84,11 +91,12 @@ a {
   height: 500px;
   background-image: url("./images/img-locations-background.jpg");
   flex-wrap: wrap;
-
 }
-
-
 
 footer {
 
+}
+
+h2 {
+  font-size: 30px;
 }
