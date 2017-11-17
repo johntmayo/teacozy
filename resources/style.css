@@ -11,6 +11,10 @@ h2 {
   padding: 0;
 }
 
+h3 {
+  font-size: 28px;
+}
+
 h4 {
   font-size: 24px;
 }
@@ -107,18 +111,31 @@ nav a {
 .locations-container {
   display: flex;
   height: 500px;
-  width: 1200px;
   background-image: url("./images/img-locations-background.jpg");
+  background-position: center;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  flex-direction: row;
+  align-items: flex-start;
 }
 
 .locations-container h2 {
   background: none;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.address-boxes {
+  margin-top: 0px;
+  opacity: 1;
+}
+
+.address {
+  width: 300px;
+  margin: 20px;
+  font-size: 22px;
 }
 
 footer {
   align-self: flex-end;
+
 }
