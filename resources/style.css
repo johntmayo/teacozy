@@ -19,6 +19,11 @@ h4 {
   font-size: 24px;
 }
 
+h5 {
+  font-size: 18px;
+
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -77,6 +82,7 @@ nav a {
 
 .main-title {
   width: 1200px;
+  opacity: 1;
 }
 
 .main-title h4, .main-title h2 {
@@ -115,7 +121,7 @@ nav a {
   background-position: center;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .locations-container h2 {
@@ -124,18 +130,18 @@ nav a {
   margin-bottom: 15px;
 }
 
-.address-boxes {
-  margin-top: 0px;
-  opacity: 1;
-}
-
 .address {
   width: 300px;
   margin: 20px;
   font-size: 22px;
+  opacity: 1;
 }
 
-footer {
-  align-self: flex-end;
+footer-contact {
+  height: 200px;
+}
 
+footer .copyright {
+  text-align: left;
+  margin-left: 15px;
 }
