@@ -9,6 +9,7 @@
 h2 {
   font-size: 32px;
   padding: 0;
+  margin: 0;
 }
 
 h3 {
@@ -122,22 +123,30 @@ nav a {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  padding-top: 70px;
 }
 
 .locations-container h2 {
   background: none;
   width: 100%;
-  margin-bottom: 15px;
+  padding: 10px;
 }
 
 .address {
   width: 300px;
-  margin: 20px;
+  margin: 5px 20px;
   font-size: 22px;
   opacity: 1;
+  padding-top: 5px;
 }
 
-footer-contact {
+.locations-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer-contact {
   height: 200px;
 }
 
